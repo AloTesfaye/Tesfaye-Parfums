@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Essence d'Or | Los Mejores Perfumes para Hombre y Mujer 2026</title>
+  <meta name="description" content="Descubre los mejores perfumes para hombre y mujer: Dior Sauvage, Aventus, Good Girl, Black Opium y más. Guía, notas, precios y comparador." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">Essence <span>d'Or</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#top">Top 3</a>
+        <a href="#hombre">Hombre</a>
+        <a href="#mujer">Mujer</a>
+        <a href="#guia">Guía</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="favBtn" class="btn-icon" title="Ver favoritos">♥ <span id="favCount">0</span></button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menú">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="badge">✦ Colección 2026 · Los más vendidos del mundo</p>
+        <h1>El arte del perfume,<br><em>para él y para ella</em></h1>
+        <p class="subtitle">Hemos seleccionado los 12 perfumes más icónicos y mejor valorados para hombre y mujer. Notas olfativas, duración, precio y cuándo usarlos.</p>
+        <div class="hero-cta">
+          <a href="#catalogo" class="btn btn-gold">Explorar colección</a>
+          <a href="#guia" class="btn btn-outline">Cómo elegir tu perfume</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>12</strong><span>Perfumes curados</span></div>
+          <div><strong>4.8★</strong><span>Valoración media</span></div>
+          <div><strong>8</strong><span>Casas de lujo</span></div>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <div class="hero-card him">
+          <div class="hero-card-top">PARA ÉL</div>
+          <h3>Dior Sauvage</h3>
+          <p>Fresco · Especiado · Magnético</p>
+          <span class="price">desde 98 €</span>
+        </div>
+        <div class="hero-card her">
+          <div class="hero-card-top">PARA ELLA</div>
+          <h3>Good Girl</h3>
+          <p>Dulce · Floral · Audaz</p>
+          <span class="price">desde 95 €</span>
+        </div>
+        <div class="hero-card uni floating">
+          <div class="hero-card-top">UNISEX ★</div>
+          <h3>Aventus Creed</h3>
+          <p>El rey nicho · Piña · Abedul</p>
+          <span class="price">desde 240 €</span>
+        </div>
+      </div>
+    </div>
+    <div class="marquee"><div class="marquee-track" id="marqueeTrack">
+      <span>DIOR • CHANEL • CREED • CAROLINA HERRERA • YVES SAINT LAURENT • GIORGIO ARMANI • LANCÔME • VERSACE • PACO RABANNE • HERMÈS •</span>
+      <span>DIOR • CHANEL • CREED • CAROLINA HERRERA • YVES SAINT LAURENT • GIORGIO ARMANI • LANCÔME • VERSACE • PACO RABANNE • HERMÈS •</span>
+    </div></div>
+  </section>
+
+  <section id="top" class="section">
+    <div class="container">
+      <p class="eyebrow">Podio 2026</p>
+      <h2>El Top 3 indiscutible</h2>
+      <div class="top-grid">
+        <article class="podium gold">
+          <div class="medal">🥇 1</div>
+          <h3>Dior Sauvage EDP</h3>
+          <p class="cat">Hombre · El más vendido del mundo</p>
+          <p>Bergamota, pimienta y ambroxan. Fresco, salvaje y ultra versátil. Dura 8-10h.</p>
+          <div class="stars">★★★★★ <small>4.9 (32k reseñas)</small></div>
+        </article>
+        <article class="podium silver">
+          <div class="medal">🥈 2</div>
+          <h3>Libre · YSL</h3>
+          <p class="cat">Mujer · Mejor floral-empoderado</p>
+          <p>Lavanda, flor de azahar y vainilla. Elegante, libre y magnético. Dura 9-12h.</p>
+          <div class="stars">★★★★★ <small>4.8 (27k reseñas)</small></div>
+        </article>
+        <article class="podium bronze">
+          <div class="medal">🥉 3</div>
+          <h3>Aventus · Creed</h3>
+          <p class="cat">Unisex/Hombre · Lujo nicho</p>
+          <p>Piña, grosella negra y abedul. Éxito, poder y proyección brutal.</p>
+          <div class="stars">★★★★★ <small>4.9 (15k reseñas)</small></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalogo" class="section section-dark">
+    <div class="container">
+      <p class="eyebrow">Catálogo completo</p>
+      <h2>12 iconos para hombre y mujer</h2>
+      <p class="muted">Filtra por género, busca por nombre o marca, y ordena por valoración o precio. Haz clic en cualquier perfume para ver su pirámide olfativa.</p>
+
+      <div class="controls">
+        <div class="filters" id="filters">
+          <button data-filter="todos" class="chip active">Todos</button>
+          <button data-filter="hombre" class="chip">Para Él 💙</button>
+          <button data-filter="mujer" class="chip">Para Ella 💖</button>
+          <button data-filter="noche" class="chip">Noche 🌙</button>
+          <button data-filter="dia" class="chip">Día ☀️</button>
+          <button data-filter="favoritos" class="chip">♥ Favoritos</button>
+        </div>
+        <div class="search-sort">
+          <input type="search" id="search" placeholder="Buscar: Dior, vainilla, fresco..." />
+          <select id="sort">
+            <option value="rating-desc">★ Mejor valorados</option>
+            <option value="precio-asc">Precio: menor a mayor</option>
+            <option value="precio-desc">Precio: mayor a menor</option>
+            <option value="nombre">Nombre A-Z</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+      <p id="emptyMsg" class="empty hidden">No se encontraron perfumes. Prueba con otra búsqueda.</p>
+    </div>
+  </section>
+
+  <section id="hombre" class="section split">
+    <div class="container split-grid">
+      <div>
+        <p class="eyebrow">Para él</p>
+        <h2>Perfumes de hombre que dejan huella</h2>
+        <ul class="checklist">
+          <li><strong>Oficina / diario:</strong> Bleu de Chanel, Acqua di Giò, Terre d'Hermès</li>
+          <li><strong>Fiesta / cita:</strong> 1 Million, Eros Versace, Le Male Le Parfum</li>
+          <li><strong>Lujo total:</strong> Aventus Creed, Dior Sauvage Elixir</li>
+        </ul>
+        <p class="muted">Regla de oro: 2-3 sprays en cuello y muñecas. En EDP, menos es más.</p>
+      </div>
+      <div class="quote-card">
+        <p>“Un hombre sin perfume es un hombre sin futuro.”</p>
+        <span>— Coco Chanel</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="mujer" class="section split split-pink">
+    <div class="container split-grid">
+      <div class="quote-card pink">
+        <p>“El perfume es la forma más intensa del recuerdo.”</p>
+        <span>— Jean Paul Guerlain</span>
+      </div>
+      <div>
+        <p class="eyebrow">Para ella</p>
+        <h2>Perfumes de mujer inolvidables</h2>
+        <ul class="checklist">
+          <li><strong>Dulces y magnéticos:</strong> Good Girl, Black Opium, La Vie Est Belle</li>
+          <li><strong>Elegantes y atemporales:</strong> Coco Mademoiselle, J'adore, Chanel N°5</li>
+          <li><strong>Moderno y audaz:</strong> Libre YSL, Flowerbomb</li>
+        </ul>
+        <p class="muted">Tip: aplica detrás de las orejas, escote y cabello para mayor estela.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guia" class="section">
+    <div class="container">
+      <p class="eyebrow">Guía rápida</p>
+      <h2>¿Cómo elegir tu perfume ideal?</h2>
+      <div class="guide-grid">
+        <div class="guide-card"><h3>1. Familia olfativa</h3><p><strong>Frescos</strong> (cítricos, acuáticos) para el día. <strong>Orientales / dulces</strong> (vainilla, ámbar) para la noche. <strong>Florales y chipre</strong> para eventos elegantes.</p></div>
+        <div class="guide-card"><h3>2. Concentración</h3><p><strong>EDT:</strong> ligera, 4-6h. <strong>EDP:</strong> intensa, 8-12h (recomendada). <strong>Parfum:</strong> máxima pureza, 12h+.</p></div>
+        <div class="guide-card"><h3>3. Pruébalo en piel</h3><p>El pH cambia todo. Pulveriza, espera <strong>30 min</strong> (corazón) y decide. No frotes las muñecas.</p></div>
+      </div>
+
+      <div class="newsletter">
+        <div>
+          <h3>Recibe la guía PDF: “10 errores al usar perfume”</h3>
+          <p>Y un cupón del 10% en tu primer pedido.</p>
+        </div>
+        <form id="newsForm">
+          <input type="email" id="email" placeholder="tu@email.com" required />
+          <button type="submit" class="btn btn-gold">Quiero mi guía</button>
+        </form>
+        <p id="newsMsg" class="news-msg"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a href="#" class="logo">Essence <span>d'Or</span></a><p class="muted">Curaduría independiente. Precios aproximados 100ml en España (2026).</p></div>
+      <div><h4>Explorar</h4><a href="#catalogo">Catálogo</a><a href="#top">Top 3</a><a href="#guia">Guía</a></div>
+      <div><h4>Casas</h4><p class="muted">Dior · Chanel · Creed<br>YSL · Armani · Carolina Herrera</p></div>
+    </div>
+    <p class="copy">© 2026 Essence d'Or — Hecho con ♥ para amantes del perfume</p>
+  </footer>
+
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <button id="toTop" class="to-top hidden" title="Volver arriba">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
